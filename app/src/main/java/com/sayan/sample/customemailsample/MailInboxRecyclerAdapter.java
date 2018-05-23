@@ -59,10 +59,10 @@ public class MailInboxRecyclerAdapter extends RecyclerView.Adapter<MailInboxRecy
             holder.mailSubject.setText(subject);
     }
 
-    private int getRandomColor() {
-        Random rnd = new Random();
-        return Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
-    }
+//    private int getRandomColor() {
+//        Random rnd = new Random();
+//        return Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
+//    }
 
     @Override
     public int getItemCount() {

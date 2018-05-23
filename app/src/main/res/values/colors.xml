@@ -6,8 +6,8 @@
 
 
     //for inbox mail recycler child
-    <color name="from">#000000</color>
-    <color name="subject">#111111</color>
+    <color name="from">#393333</color>
+    <color name="subject">#6e6969</color>
     <color name="timestamp">#4285f4</color>
     <color name="message">#7a7a7a</color>
     <color name="icon_tint_normal">#7a7a7a</color>

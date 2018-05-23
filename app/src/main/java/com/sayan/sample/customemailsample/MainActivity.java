@@ -80,10 +80,10 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerViewMailInbox.setLayoutManager(layoutManager);
         mRecyclerViewMailInbox.setAdapter(new MailInboxRecyclerAdapter(InboxListSingleton.getInstance().getInboxModels()));
     }
-    private int getRandomColor() {
-        Random rnd = new Random();
-        return Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
-    }
+//    private int getRandomColor() {
+//        Random rnd = new Random();
+//        return Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
+//    }
     private int getRandomMaterialColor(String typeColor) {
         int returnColor = Color.GRAY;
         int arrayId = getResources().getIdentifier("mdcolor_" + typeColor, "array", getPackageName());

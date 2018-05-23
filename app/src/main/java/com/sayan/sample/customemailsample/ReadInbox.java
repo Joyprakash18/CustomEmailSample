@@ -85,6 +85,7 @@ public class ReadInbox extends AsyncTask<Void, Void, Message[]> {
                 System.out.println("From: " + message.getFrom()[0]);
                 System.out.println("Text: " + message.getMessageNumber());
                 System.out.println("Sent Date: " + message.getSentDate());
+                System.out.println("Flag: " + message.getContentType());
 
 //                    writePart(message, i);
 //                    String line = reader.readLine();
